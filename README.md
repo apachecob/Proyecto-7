@@ -167,5 +167,6 @@ El proyecto cumple con:
 
 ## 👤 Autor
 
-Alejandro Pacheco Bastidas 
+Alejandro Pacheco Bastidas
+
 Bootcamp Data Science – Proyecto 7
