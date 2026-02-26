@@ -45,7 +45,7 @@ Se realizaron las siguientes etapas:
 - Análisis de correlación
 - Análisis de desbalance de clases
 
-Debido a la asimetría en variables como Installs, Price y Size, se aplicó transformación log1p para estabilizar varianza y mejorar el aprendizaje del modelo.
+Debido a la asimetría en variables como Installs, Price y Size, se aplicó transformación `log1p` para estabilizar varianza y mejorar el aprendizaje del modelo.
 
 ---
 
@@ -101,9 +101,9 @@ La API:
 
 ### 🔗 Endpoint
 
-POST /predict
+POST `/predict`
 
-Ejemplo de entrada:
+### 📥 Ejemplo de entrada
 
 ```json
 {
@@ -114,3 +114,47 @@ Ejemplo de entrada:
   "Content_Rating": "Teen",
   "Type": "Free"
 }
+```
+
+### 📤 Ejemplo de respuesta
+
+```json
+{
+  "prediction": 1,
+  "probability_success": 0.82
+}
+```
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+- Flask
+- Ngrok
+
+---
+
+## 📌 Conclusión
+
+El modelo de ensamble Random Forest tuneado logró un desempeño superior al modelo base, demostrando que técnicas de ensamble y ajuste de hiperparámetros mejoran significativamente la capacidad predictiva.
+
+El proyecto cumple con:
+
+- Análisis exploratorio
+- Modelado
+- Evaluación
+- Ajuste
+- Despliegue en API
+
+---
+
+## 👤 Autor
+
+Alejandro Pacheco  
+Bootcamp Data Science – Proyecto 7
