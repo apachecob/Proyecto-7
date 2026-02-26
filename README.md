@@ -99,6 +99,17 @@ La API:
 - Construye el vector esperado
 - Devuelve predicción y probabilidad
 
+## 📦 Archivos del Modelo
+
+Debido a las restricciones de tamaño de GitHub, los archivos binarios del modelo (`.pkl`) no se incluyen en el repositorio.
+
+El modelo puede generarse ejecutando el notebook completo, el cual guarda automáticamente:
+
+- modelo_final.pkl
+- columnas_modelo.pkl
+
+Estos archivos son utilizados posteriormente por la API.
+
 ### 🔗 Endpoint
 
 POST `/predict`
